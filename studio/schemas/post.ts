@@ -39,6 +39,11 @@ export default defineType({
       title: 'Body',
       type: 'blockContent',
     }),
+    defineField({
+      name: 'codeInput',
+      title: 'Code Input',
+      type: 'code',
+    }),
   ],
   preview: {
     select: {
